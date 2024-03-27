@@ -35,4 +35,5 @@ Applica stili differenti agli elementi aggiunti al DOM nel _BONUS 1_, a seconda 
 ### Bonus 2
 
 - Creo gli stili differenti in CSS per fizz/buzz/fizzbuzz e do bg comune a tutti gli altri
+- Dichiaro una variabile di appoggio per gestire la classe relativa al background
 - Aggiungo la classe corrispondente all'elemento tramite JS
