@@ -19,6 +19,6 @@ for (let i = 1; i <=100; i++) {
         result = i;
     }
 
-
+    // Stampa in console dei risultati
     console.log(result);
 }

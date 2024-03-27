@@ -22,3 +22,4 @@ Applica stili differenti agli elementi aggiunti al DOM nel _BONUS 1_, a seconda 
    assegno FizzBuzz
    Altrimenti
    assegno i alla var. di appoggio
+4. Stampa in console dei risultati
