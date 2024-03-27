@@ -14,11 +14,11 @@ for (let i = 1; i <=100; i++) {
 
     // 3. Assegnazione valori ai multipli di 3 e 5
     if (i % 15 === 0) {
-        result = "fizzbuzz"
+        result = "FizzBuzz"
     } else if (i % 3 === 0 ) {
-        result = "fizz";
+        result = "Fizz";
     } else if (i % 5 === 0) {
-        result = "buzz";
+        result = "Buzz";
     } else {
         result = i;
     }
@@ -29,8 +29,17 @@ for (let i = 1; i <=100; i++) {
     colElem.innerHTML = result;
     colElem.classList.add("col");
     // Aggiungo la classe corrispondente all'elemento
-    colElem.classList.add(`${result}`)
-    console.log(colElem);    
+    if (result === "FizzBuzz") { 
+        colElem.classList.add("fizz-buzz")
+    } else if (result === "Fizz") {
+        colElem.classList.add("fizz")
+    } else if (result === "Buzz") {
+        colElem.classList.add("buzz")
+    }
+
+    // Stampo in console gli elementi
+    console.log(colElem);  
+      
     // Stampo in pagina gli elementi
     rowElem.append(colElem);
 
