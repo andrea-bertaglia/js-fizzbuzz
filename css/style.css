@@ -3,19 +3,50 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: #083b4c;
+}
+
+h1 {
+  color: #fff;
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 1em;
 }
 
 .container {
   margin: 3em auto;
   max-width: 80%;
-
-  /* debug */
-  border: 2px solid black;
 }
 
 .row {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   gap: 1em;
-  flex-direction: column;
+}
+
+.col {
+  border: 2px solid black;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1389b2;
+}
+
+.fizz {
+  background-color: #0ad6a1;
+}
+
+.buzz {
+  background-color: #ffd166;
+}
+
+.fizzbuzz {
+  background-color: #f0466f;
 }

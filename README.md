@@ -31,3 +31,8 @@ Applica stili differenti agli elementi aggiunti al DOM nel _BONUS 1_, a seconda 
 - Aggiungo l'elemento in pagina
 - Aggiungo il valore nell'elemento
 - Stampo in pagina gli elementi
+
+### Bonus 2
+
+- Creo gli stili differenti in CSS per fizz/buzz/fizzbuzz e do bg comune a tutti gli altri
+- Aggiungo la classe corrispondente all'elemento tramite JS
