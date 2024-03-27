@@ -5,6 +5,17 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: lightgreen;
+.container {
+  margin: 3em auto;
+  max-width: 80%;
+
+  /* debug */
+  border: 2px solid black;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  flex-direction: column;
 }

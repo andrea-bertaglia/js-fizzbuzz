@@ -23,3 +23,11 @@ Applica stili differenti agli elementi aggiunti al DOM nel _BONUS 1_, a seconda 
    Altrimenti
    assegno i alla var. di appoggio
 4. Stampa in console dei risultati
+
+### Bonus 1
+
+- Creo la struttura base in HTML
+- Dichiaro una variabile per catturare l'elemento HTML
+- Aggiungo l'elemento in pagina
+- Aggiungo il valore nell'elemento
+- Stampo in pagina gli elementi
